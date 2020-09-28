@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>prashant.prashantsaxena@ecolab.com</contactEmail>
+    <label>ECOLABS_DEVOPS</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:1717/OauthRedirect</callbackUrl>
+        <certificate>MIIDqjCCApICCQCwbf/GU3i7rTANBgkqhkiG9w0BAQsFADCBljELMAkGA1UEBhMCSU4xEjAQBgNVBAgMCUthcm5hdGFrYTERMA8GA1UEBwwIQmFuZ2xvcmUxDzANBgNVBAoMBkVDT0xBQjELMAkGA1UECwwCSVQxDzANBgNVBAMMBkVDT0xBQjExMC8GCSqGSIb3DQEJARYicHJhc2hhbnQucHJhc2hhbnRzYXhlbmFAZWNvbGFiLmNvbTAeFw0yMDA5MjQxNzA0MzVaFw0yMTA5MjQxNzA0MzVaMIGWMQswCQYDVQQGEwJJTjESMBAGA1UECAwJS2FybmF0YWthMREwDwYDVQQHDAhCYW5nbG9yZTEPMA0GA1UECgwGRUNPTEFCMQswCQYDVQQLDAJJVDEPMA0GA1UEAwwGRUNPTEFCMTEwLwYJKoZIhvcNAQkBFiJwcmFzaGFudC5wcmFzaGFudHNheGVuYUBlY29sYWIuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArKrUJaAS3uCqwAywpZx66inY+npY+AOVYpMod+hWN9LMmO9btBi5/NLF3EY2oxCV76Y1MdJuZhzAZ8yrsnj4d9/J3CHHwG+erJYdr8jQwt02mUk44NLkfarbzzOXyEGOa6LIbGKm7Q18v3S93ULHA0B7m5CSA55fe01Ta5XlWQJllX+sr/6h6z4GOCli7aE7hIBGut66gEln55oVXy5kKDEQzllm2Sj9K2BepLpiVDh7J9CEZywuCazGIXox9DfBHt+UPKYEr4mXSnK747YhoqgHCRUNyo0s9SPms99ZDDFCJAMn9FsCjuwUkV1IqWoBLbh4EoCI7m24Jj7BZn09FQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQB8G3b9TkKT/owVJl7l3lQuW6WroNJRou2lHF1jNLNvA9G/J0dlGMHmSgKBUlu4eMBeEm4+2WUAqoWuBTTrSggboR2j9WeRjYYepapqqWI9ShTy1l7FDUz+zTEYKqVmJtMnvmd6CQ2UKP1KnQfG4Zo6DoWd5Cmiw0SY4OocG8/Sm0X/MEuNRPlfrtBkKy1vuT3l+AZGpFDZkTLkS0wWaOX9B5Ijw6hzPYfa9B0MTMfma3GG4WMcnjIo1Qzr4cJNQ0t5sY9lTABYZnSvWHGIRQcB83ouZtgMKU9Y4nbRjSCQernI0Z+WOZOek4HGTUNsWGSlab5GNxQzVaxRsogYnBfK</certificate>
+        <isAdminApproved>true</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <permissionSetName>DevOps</permissionSetName>
+</ConnectedApp>
